@@ -12,7 +12,7 @@
   async function fetchTrips() {
     tripData.value = null
     const res = await fetch(
-        'http://localhost:8081/api/v1/trips'
+        'http://localhost:8080/api/v1/trips'
     )
     tripData.value = await res.json()
   }
