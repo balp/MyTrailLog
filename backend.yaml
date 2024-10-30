@@ -1,4 +1,5 @@
 runtime: go122
+service: backend
 
 handlers:
 - url: /.*
